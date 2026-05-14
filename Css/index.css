@@ -1,13 +1,13 @@
 body {
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
 .search{
     align-items: center;
+    justify-content: center;
+    margin: 50vh auto;
 }
 
 #inpbox{
@@ -28,4 +28,10 @@ body {
     border: none;
     cursor: pointer;
     margin-top: 5px;
+}
+
+#main-logo{
+    justify-content: center;
+    margin-top: 50vh auto;
+    font-size: 3em;
 }
