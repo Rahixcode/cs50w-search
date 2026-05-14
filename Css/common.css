@@ -1,0 +1,31 @@
+body {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search{
+    align-items: center;
+}
+
+#inpbox{
+    padding: 10px;
+    width: 35vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button{
+    justify-content: center;
+    align-items: center;
+    size: fit-content;
+    background-color: rgb(167, 165, 165);
+    border-radius: 10px;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
