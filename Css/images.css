@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    /* margin-left: 150px; */
+    gap:-10px;
 }
 
 #inpbox{
@@ -69,9 +69,20 @@ body {
 
 #more_page{
     display: flex;
-    justify-content: right;
     gap: 10px;
     margin-top: 20px;
     margin-right: 20px;
     gap: 25px;
+}
+
+#more_page a{
+    align-items: left;
+    text-decoration: none;
+    color: rgb(71, 109, 179);
+    font-size: 15px;
+}
+
+#more_page a:hover{
+    color: rgb(69, 222, 228);
+    text-decoration: underline;
 }
