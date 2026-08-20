@@ -2,12 +2,100 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="Css/common.css">
+        <link rel="stylesheet" href="Css/advanced.css">
         <link rel="icon" type="image/x-icon" href="logo.png">
     </head>
     <body>
         <header>
-            <a href="index.html">Home</a>
-            <a href="images.html">Images</a>
+            <h2 id="page_name">
+                Advanced Search
+            </h2>
+            <div id="more_page">
+                <a href="index.html">Home</a>
+                <a href="images.html">Images</a>
+            </div>
         </header>
+        <div id="main_logo">
+            <h1>CS Advanced</h1>
+        </div>
+        <form id="search_bar" action="https://www.google.com/search" method="get">
+            <h2 id="top">Find Pages With</h2>
+            <div class="search-topics">
+                <div id="items">
+                    <label id="name">All of these words:</label>
+                    <input jsname="YPqjbf" class="uqeVMc KYjrJf mxgg6c OhScic" aria-describedby="supporting_text__whqHaveXG6aghvcP7emRqA4_1" autocomplete="off" enterkeyhint="search" id="_whqHaveXG6aghvcP7emRqA4_1" name="as_q" type="text" jsaction="focus:h06R8;blur:zjh6rb;input:e4JwSe" aria-invalid="false">
+                </div>
+                <div id="items">
+                    <label id="name">This exact word or phrase: </label>
+                    <input jsname="YPqjbf" class="uqeVMc KYjrJf mxgg6c OhScic" aria-describedby="supporting_text__whqHaveXG6aghvcP7emRqA4_2" autocomplete="off" enterkeyhint="search" id="_whqHaveXG6aghvcP7emRqA4_2" name="as_epq" type="text" jsaction="focus:h06R8;blur:zjh6rb;input:e4JwSe" aria-invalid="false">
+                </div>
+                <div id="items">
+                    <label id="name">None of these words:</label>
+                    <input jsname="YPqjbf" class="uqeVMc KYjrJf mxgg6c OhScic" aria-describedby="supporting_text__whqHaveXG6aghvcP7emRqA4_3" autocomplete="off" enterkeyhint="search" id="_whqHaveXG6aghvcP7emRqA4_3" name="as_eq" type="text" jsaction="focus:h06R8;blur:zjh6rb;input:e4JwSe" aria-invalid="false">
+                </div>
+                <div id="items">
+                    <label id="name">Site or domain: </label>
+                    <input jsname="YPqjbf" class="uqeVMc KYjrJf mxgg6c OhScic" aria-describedby="supporting_text__whqHaveXG6aghvcP7emRqA4_4" autocomplete="off" enterkeyhint="search" id="_whqHaveXG6aghvcP7emRqA4_4" name="as_sitesearch" type="text" jsaction="focus:h06R8;blur:zjh6rb;input:e4JwSe" aria-invalid="false">
+                </div>
+            </div>
+
+            <h2 id="top">Then narrow your results by</h2>
+            <div class="search-topics">
+                <div class="filter-topics">
+                    <div class="filter-row">
+                        <label for="file-type">File type:</label>
+                        <select id="file-type" name="as_filetype">
+                            <option value="">Any format</option>
+                            <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                            <option value="ps">Adobe Postscript (.ps)</option>
+                            <option value="dwf">Autodesk DWF (.dwf)</option>
+                            <option value="kml">Google Earth KML (.kml)</option>
+                            <option value="kmz">Google Earth KMZ (.kmz)</option>
+                        </select>
+                    </div>
+                    <div class="filter-row">
+                        <label for="last-update">Last update:</label>
+                        <select id="last-update" name="as_qdr">
+                            <option value="">Anytime</option>
+                            <option value="d">Past 24 hours</option>
+                            <option value="w">Past week</option>
+                            <option value="m">Past month</option>
+                            <option value="y">Past year</option>
+                        </select>
+                    </div>
+                    <div class="filter-row">
+                        <label for="language">Language:</label>
+                        <select id="language" name="as_l">
+                            <option value="">Any language</option>
+                            <option value="lang_en">English</option>
+                            <option value="lang_es">Spanish</option>
+                            <option value="lang_fr">French</option>
+                            <option value="lang_de">German</option>
+                        </select>
+                    </div>
+                    <div class="filter-row">
+                        <label for="region">Region:</label>
+                        <select id="region" name="as_r">
+                            <option value="">Any region</option>
+                            <option value="countryUS">United States</option>
+                            <option value="countryGB">United Kingdom</option>
+                            <option value="countryCA">Canada</option>
+                            <option value="countryAU">Australia</option>
+                        </select>
+                    </div>
+                    <div class="filter-row">
+                        <label for="usage-rights">Usage rights:</label>
+                        <select id="usage-rights" name="as_rights">
+                            <option value="">Not filtered by license</option>
+                            <option value="cc_publicdomain">Creative Commons</option>
+                            <option value="cc_free">Free to use or share</option>
+                            <option value="cc_commercial">Free to use commercially</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="advanced-search-button">Advanced Search</button>
+        </form>
     </body>
 </html>
