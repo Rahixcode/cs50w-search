@@ -85,3 +85,14 @@ header{
     background-color: rgb(210 210 210);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(71, 109, 179);
+    font-weight: bold;
+}
