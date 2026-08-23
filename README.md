@@ -11,7 +11,7 @@
 </p>
 
 ---
-<p align="center" style="color: #B8E0D2">Video Demo: link[https://youtu.be/YA1Sn6dfTHI]</p>
+<p align="center" style="color: #B8E0D2">Video Demo: <a href="https://youtu.be/YA1Sn6dfTHI">link</a></p>
 
 ---
 
